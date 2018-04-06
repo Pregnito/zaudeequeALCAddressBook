@@ -7,62 +7,81 @@
 }
 
 .logo-container {
-	position: absolute;
-    margin-top: 15px;
-    margin-left: 52px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 52px;
 }
 
 .collection {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 .collection .collection-item.avatar {
-	min-height: 70px;
-	cursor: pointer;
+  min-height: 70px;
+  cursor: pointer;
 }
 
 .collection .collection-item.avatar .title {
-	line-height: 35px;
+  line-height: 35px;
 }
 
 .logo-container .brand-logo {
-	color: black;
+  color: black;
 }
 
 .upload-pic {
-	opacity: 0;
-    position: absolute;
-    top: -1%;
-    right: 29%;
-    z-index: 1;
-    height: 180px;
+  opacity: 0;
+  position: absolute;
+  top: -1%;
+  right: 29%;
+  z-index: 1;
+  height: 180px;
 }
 
 .user-img {
-	position: relative;
-    right: -40%;
-    z-index: 0;
+  position: relative;
+  right: -40%;
+  z-index: 0;
 }
 
 .delete-icon {
-	color: 	red;
-	cursor: pointer;
+  color:  red;
+  cursor: pointer;
 }
 
 .edit-icon {
-	color: 	blue;
-	cursor: pointer;
+  color:  blue;
+  cursor: pointer;
 }
 
 .user-detail-title {
-	display: flex;
-	flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .address-list-container .empty-list {
-	margin: 30% 0;
+  margin: 30% 0;
+}
+
+#contact-details:focus {
+  outline: none;
+}
+
+.editable {
+  border: 1px solid grey;
+  background: beige;
+  padding: 5px 0.5em;
+  border-radius: 2px;
+}
+
+.summary-detail p {
+  line-height: 30px;
+}
+
+#user_image {
+  height: 60px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -77,6 +96,6 @@
    }
  
   #content {
-  	padding: 20px;
+    padding: 20px;
   }
 }
